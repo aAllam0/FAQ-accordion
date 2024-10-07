@@ -22,6 +22,9 @@ main {
     color: var(--dark-purple);
   }
   & .content .faqs-row {
+    &:not(:last-child) {
+      border-bottom: 1px solid var(--light-pink);
+    } 
     & .question {
       cursor: pointer;
       transition: 0.3s;
