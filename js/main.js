@@ -3,9 +3,6 @@ const questions = document.querySelectorAll(
   ".faqs .content .faqs-row .question"
 );
 
-console.log(faqsRows);
-console.log(questions);
-
 questions.forEach((question) => {
   question.addEventListener("click", (e) => {
     if (e.currentTarget.parentElement.classList.contains("active")) {
@@ -16,3 +13,4 @@ questions.forEach((question) => {
     }
   });
 });
+

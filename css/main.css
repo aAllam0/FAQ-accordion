@@ -36,9 +36,10 @@ main {
     }
     & .answer {
       color: var(--grayish-purple);
-      transition: 0.3s;
-      transform: translateY(-100%);
-      margin-top: -72px;
+      transition: 0.3s ease;
+      max-height: 0;
+      opacity: 0;
+      overflow: hidden;
     }
     &.active {
       & .question {
@@ -50,8 +51,8 @@ main {
         }
       }
       & .answer {
-        transform: translateX(0);
-        margin-top: 0;
+        max-height: 200px;
+        opacity: 1;
       }
     }
   }
