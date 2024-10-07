@@ -9,6 +9,9 @@ body {
   background-size: 100%;
   background-repeat: no-repeat;
   background-color: var(--light-pink);
+  @media (max-width: 767px) {
+    background-image: url(../assets/images/background-pattern-mobile.svg)
+  }
 }
 main {
   padding: 1rem;
