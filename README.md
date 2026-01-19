@@ -1,4 +1,4 @@
-# Frontend Mentor - Page Name
+# Frontend Mentor - FAQ Accordion
 
 ![](Preview.png)
 
